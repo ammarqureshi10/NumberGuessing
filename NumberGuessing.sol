@@ -20,7 +20,7 @@ contract numberguess {
             LoserCounter++;
             return false;
         }
-    }
+}
     function totalGuess() public {
         uint guess = WinnerCounter + LoserCounter;
         guess;
